@@ -7,7 +7,7 @@
 ## 依赖开发环境
 * Linux/openWRT: libpcap
 * Windows: WinPcap
-* JDK8
+* JDK8及其以上
 
 ## 使用方法
 命令行：
@@ -16,7 +16,7 @@
 * 参数2-密码
 
 ## 下载
-IkarosH3C：[下载地址](https://github.com/IkarosH3C/J4h3c/releases)
+IkarosH3C：[下载地址](https://github.com/Ikarosx/IkarosH3C/releases)
 
 ## 感谢
 * [H3C](https://github.com/QCute/H3C)
@@ -25,4 +25,4 @@ IkarosH3C：[下载地址](https://github.com/IkarosH3C/J4h3c/releases)
 
 ## 参考
 [伯克利包过滤语法](https://www.winpcap.org/docs/docs_40_2/html/group__language.html)(Berkeley Packet Filter,BPF)
-[Inode分析流程](https://fjkfwz.github.io/2014/12/04/H3C-inode-Linux/)
+[Inode客户端抓包分析流程](https://fjkfwz.github.io/2014/12/04/H3C-inode-Linux/)

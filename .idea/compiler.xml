@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="J4h3c-iNode" />
+        <module name="IkarosH3C" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="J4h3c-iNode" target="8" />
+      <module name="IkarosH3C" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

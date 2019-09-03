@@ -1,4 +1,4 @@
-package com.poke8.caputure;
+package cn.ikarosx.caputure;
 
 public enum StartLogoff {
   Start,
