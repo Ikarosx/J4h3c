@@ -23,6 +23,7 @@ IkarosH3C：[下载地址](https://github.com/Ikarosx/IkarosH3C/releases)
 * [H3C](https://github.com/QCute/H3C)
 * [Pcap4J](https://github.com/kaitoy/pcap4j)
 * [J4h3c](https://github.com/XJhrack/J4h3c)
+* [bitdust/H3C_toolkit](https://github.com/bitdust/H3C_toolkit)
 
 ## 参考
 * [伯克利包过滤语法](https://www.winpcap.org/docs/docs_40_2/html/group__language.html)(Berkeley Packet Filter,BPF)
