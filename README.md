@@ -1,5 +1,5 @@
 # IkarosH3C
-基于[J4h3c](https://github.com/XJhrack/J4h3c/releases)二次开发
+基于[Xjhrack/J4h3c](https://github.com/XJhrack/J4h3c/releases)二次开发
 
 ## 实现功能
 目前只负责认证，IP需手动设置为固定IP  
