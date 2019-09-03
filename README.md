@@ -1,36 +1,28 @@
-# J4h3c
-基于Java pcap编程，提供跨平台的h3c 802.1x的认证客户端，方便快速移植于各种环境下。
+# IkarosH3C
+基于[J4h3c](https://github.com/XJhrack/J4h3c/releases)二次开发
 
-命令行形式
-* 参数1-用户名
-* 参数2-密码
-
-## 为什么不用iNode
-* 体积庞大
-* 在用户目录记录日志文件，增加CPU负载，减少硬盘寿命
-* 经常莫名错误
-* 支持平台少
-
-## 下载
-J4h3c：[下载地址](https://github.com/XJhrack/J4h3c/releases)
-
-使用方法，编辑run.bat
-替换用户名与密码 运行
-选择有线网卡完成认证
-
-命令行：java -jar SchoolAuth.jar 用户名 密码
+## 实现功能
+目前只负责认证,经过测试可用于广东第二师范学院网线连接 ——2019-9-3
 
 ## 依赖开发环境
 * Linux/openWRT: libpcap
 * Windows: WinPcap
+* JDK8
 
-## 附加说明
-目前只负责认证，认证成功后需手动发起dhcp获取ip
-后续添加自动获取功能
+## 使用方法
+命令行：
+  java -jar GDEIAuth.jar username password
+* 参数1-用户名
+* 参数2-密码
+
+## 下载
+IkarosH3C：[下载地址](https://github.com/IkarosH3C/J4h3c/releases)
 
 ## 感谢
 * [H3C](https://github.com/QCute/H3C)
 * [Pcap4J](https://github.com/kaitoy/pcap4j)
+* [J4h3c](https://github.com/XJhrack/J4h3c)
 
 ## 参考
 [伯克利包过滤语法](https://www.winpcap.org/docs/docs_40_2/html/group__language.html)(Berkeley Packet Filter,BPF)
+[Inode分析流程](https://fjkfwz.github.io/2014/12/04/H3C-inode-Linux/)
